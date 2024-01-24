@@ -12,7 +12,7 @@
 | `cp -r` | Copy directories and their contents recursively. | `cp -r source_directory/ destination_directory/` - Copy a directory recursively. |
 | `cp -i` | Prompt before overwriting existing files. | `cp -i file.txt new_folder/` - Prompt before overwriting. |
 | `cp -u` | Copy only when the source file is newer. | `cp -u source.txt destination.txt` - Copy if newer. |
-| `cp -v` | Enable verbose mode to display what's being copied. | `cp -v` file.txt new_folder/ - Enable verbose mode. |
+| `cp -v` | Enable verbose mode to display what's being copied. | `cp -v file.txt new_folder/` - Enable verbose mode. |
 | `mv` | Move or rename files and directories. | `mv old.txt new.txt` - Move or rename a file |
 | `mv -u` | Move only when the source file is newer. | `mv -u source.txt destination.txt` - Move if newer. |
 | `mv -i` | Prompt before overwriting existing files. | `mv -i old.txt new.txt` - Prompt before overwriting. |
