@@ -1,20 +1,23 @@
-# basics-commands
 | Command | Description | Example |
 | --- | --- | --- |
 | cd /path/to/directory | Change the current directory | cd /path/to/directory - Navigate to a specific folder |
 | pwd | Print the current working directory | pwd - Display the current directory path |
+| ls | List files and directories in the current directory. | ls - List files and directories in the current directory. |
 | ls -l | List files with details. | ls -l - List files with details. |
 | ls -a | List all files, including hidden ones. | ls -a - List all files, including hidden ones. |
 | ls -t | Sort files by modification time. | ls -t - Sort files by modification time. |
 | ls -h | List sizes in human-readable format. | ls -h - List sizes in human-readable format. |
 | ls -R | Recursively list subdirectories. | ls -R - Recursively list subdirectories. |
+| cp | Copy files or directories from one location to another. | cp source.txt destination.txt - Copy a file |
 | cp -r | Copy directories and their contents recursively. | cp -r source_directory/ destination_directory/ - Copy a directory recursively. |
 | cp -i | Prompt before overwriting existing files. | cp -i file.txt new_folder/ - Prompt before overwriting. |
 | cp -u | Copy only when the source file is newer. | cp -u source.txt destination.txt - Copy if newer. |
 | cp -v | Enable verbose mode to display what's being copied. | cp -v file.txt new_folder/ - Enable verbose mode. |
+| mv | Move or rename files and directories. | mv old.txt new.txt - Move or rename a file |
 | mv -u | Move only when the source file is newer. | mv -u source.txt destination.txt - Move if newer. |
 | mv -i | Prompt before overwriting existing files. | mv -i old.txt new.txt - Prompt before overwriting. |
 | mv -v | Enable verbose mode to display the move operation. | mv -v old.txt new.txt - Enable verbose mode. |
+| rm | Remove files or directories. | rm file.txt - Remove a file |
 | rm -r | Remove directories and their contents recursively. | rm -r directory_to_remove/ - Remove a directory recursively. |
 | rm -i | Prompt before each removal. | rm -i file.txt - Prompt before removing. |
 | rm -f | Forcefully remove without prompting. | rm -f file.txt - Forcefully remove. |
